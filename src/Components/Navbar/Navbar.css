@@ -1,0 +1,85 @@
+.navContainer {
+  height: 75px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  z-index: 9999;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+.showNavContainer{
+    height: 475px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+
+}
+.showNavContainer .navMenuImg {
+    visibility: hidden;
+}
+.navContainer .navLinks .pageLinks{
+    visibility: hidden;
+}
+.navLinks{
+    height: 75px;
+    overflow: hidden;
+    
+}
+.logo img{
+        height: 73px; 
+       width: 107px;
+       position: relative;
+       top: 0px;
+       left: 0px;
+       filter: invert(100%);
+}
+.pageLinks{
+    height: 350px;
+    width: 40%;
+    position: absolute;
+    top: 73px;
+    left: 8px;
+   
+}
+.pageLinks ul li{
+    font-size: 26px;
+    margin: 10px 10px;
+    list-style: none;
+    padding: 10px 10px;
+    
+    
+}
+.pageLinks ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.pageLinks .removeIcon{
+    height: 60px;
+    width: 65px;
+    position: relative;
+    left: 224%;
+    top: -314px;
+}
+.navMenuImg{
+    height: 75px;
+    width: 200px;
+}
+.menuIcon {
+    height: 60px;
+    width: 65px;
+    position: relative;
+    top: 4px;
+    left: 70px;
+    cursor: pointer;
+}
+

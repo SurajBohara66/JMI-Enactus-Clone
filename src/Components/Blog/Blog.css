@@ -1,0 +1,76 @@
+.blogContainer{
+    height: 811px;
+    width: 100%;
+    background-color: #0b0a0a;
+    color: white;
+    overflow: hidden;
+    margin-top: 40px;
+}
+.heading{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+.heading h1{
+    font-size: 46px;
+    font-weight: bold;
+}
+.heading p{
+    margin-top: 10px;
+    padding: 0px 170px;
+    text-align: center;
+}
+.blogCollection{
+    height: 600px;
+    width: 100%;
+
+    display: flex;
+
+    position: relative;
+    top: 67px;
+    left: 17%;
+}
+.blogCard{
+    height: 84%;
+    width: 22%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+.blogCard img{
+    height: 303px;
+    width: 76%;
+    border: 1px solid white;
+    position: relative;
+    top: -30px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 25px;
+}
+.details p{
+    margin: 6px 0px;
+}
+.btnbox{
+    height:70px ;
+    width: 150px;
+    position: relative;
+    left: 47%;
+}
+.btnbox button{
+    height: 60px;
+    width: 120px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 23px;
+position: relative;
+cursor: pointer;
+
+}

@@ -1,0 +1,41 @@
+.abtSection{
+    height: 400px;
+    width: 100%;
+    background-color: #0b0a0a;
+    z-index: 10;
+   position: relative;
+   color: white;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.abtSection h3{
+
+    font-size: 23px;
+    color: gray;
+
+}
+.abtSection h1{
+    font-size: 52px;
+    margin: 10px 10px;
+}
+.abtSection p{
+  padding: 20px 40px;
+}
+.abtSection button{
+    height: 60px;
+    width: 120px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 23px;
+   
+}
+.abtSection button a{
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+    
+}

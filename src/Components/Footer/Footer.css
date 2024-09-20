@@ -1,0 +1,49 @@
+.footContainer {
+  height: 335px;
+  width: 100%;
+  background-color: #0b0a0a;
+  color: white;
+}
+.footlinks {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overview {
+  height: 331px;
+  margin: 10px 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerlogo img {
+  height: 160px;
+  width: 200px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+filter: invert(100%);
+}
+.overview h3{
+    font-size: 27px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 12px 12px;
+
+}
+.overview ul li{
+    list-style: none;
+    color: gray;
+    font-size: 19px;
+    margin: 12px 12px ;
+    padding: 10px 12px;
+}
+.store{
+    display: flex;
+    align-items: center;
+}

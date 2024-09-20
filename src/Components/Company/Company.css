@@ -1,0 +1,38 @@
+.brandContainer{
+    height: 644px;
+    width: 100%;
+    position: relative;
+    top: -60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.brandContainer img{
+    height: 200px;
+    width: 300px;
+    filter: grayscale(100%);
+    margin: 10px 10px;
+}
+.brandContainer img:hover{
+    filter: grayscale(0%);
+    box-shadow: 4px 14px 3px 6px yellow;
+    position: relative;
+    bottom: 6px;
+    right: 12px;
+    margin:0px 10px ;
+}
+.heading{
+    height: 190px;
+    width: 100%;
+    position: relative;
+  margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    top: -20px;
+}
+.heading h1{
+    font-size: 46px;
+    font-weight: bold;
+}

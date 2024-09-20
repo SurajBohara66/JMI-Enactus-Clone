@@ -1,0 +1,68 @@
+.journeyContainer{
+    height: 350px;
+    width: 100%;
+    background-color: #0b0a0a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.abtJourney{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.abtJourney h1{
+    font-size: 46px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+.abtJourney p{
+    padding: 0px 143px;
+}
+
+.projects{
+    height: 200px;
+    width: 300px;
+    margin: 10px 10px;
+}
+.workingHours{
+    height: 200px;
+    width: 300px;
+    
+}
+.livesTouched{
+    height: 200px;
+    width: 300px;
+
+    margin: 10px 10px;
+}
+.volunteers{
+    height: 200px;
+    width: 300px;
+    
+}
+.workDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.workDetails h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.workDetails p{
+    font-size: 23px;
+}
